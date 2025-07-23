@@ -24,7 +24,7 @@ This app demonstrates:
 
 ## 🛠️ Technologies Used
 
-- Angular 19+
+- Angular 19
 - SCSS
 - HTML & TypeScript
 - Angular Directives: `ngSwitch`, `ngClass`
