@@ -1,64 +1,52 @@
-<<<<<<< HEAD
-# AngularCounter
+# Angular Counter 🔢
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+A simple counter application built with Angular as part of the **30 Days of Angular Projects** challenge.
 
-## Development server
+This app demonstrates:
+- Two-way data binding
+- Event handling with `(click)`
+- Conditional rendering using `ngSwitch`
+- Styling based on state (positive, neutral, negative)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 📸 Screenshot
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+![Screenshot](public/screenshot.png)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Live Demo
 
-```bash
-ng generate component component-name
-```
+[Click here to see the live demo](https://Ahmad-889.github.io/angular-counter/)  
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🛠️ Technologies Used
 
-## Building
+- Angular 19+
+- SCSS
+- HTML & TypeScript
+- Angular Directives: `ngSwitch`, `ngClass`
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🧠 Features
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Counter initialized to `5`
+- **Increment** and **Decrement** buttons
+- Dynamic status message:
+  - Positive ➕
+  - Neutral ➖
+  - Negative ➖
+- State-based color styles using `ngClass`
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🏁 Getting Started
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+1. Clone the repo:
 
 ```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# angular-counter
-A simple Angular counter project
->>>>>>> 595024a7c3709bbc037b745270e6b24e2a15f431
+git clone https://github.com/Ahmad-889/angular-counter.git
+cd angular-counter
